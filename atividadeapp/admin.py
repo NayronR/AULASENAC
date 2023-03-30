@@ -1,0 +1,6 @@
+from django.contrib import admin
+from atividadeapp.models import Animal , Categoria
+# Register your models here.
+
+admin.site.register(Animal)
+admin.site.register(Categoria)
